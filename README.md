@@ -161,7 +161,7 @@
 </br>
 
 
-<pre><img height="50" src="Images\mysql-logo.svg">   <img height="50" src="Images\python-logo.png">    <img height="50" src="Images\mongodb-logo.svg"></pre>
+<p><img height="50" src="Images\mysql-logo.svg"> &nbsp;  <img height="50" src="Images\python-logo.png">  &nbsp;  <img height="50" src="Images\mongodb-logo.svg"></p>
 
 
 
