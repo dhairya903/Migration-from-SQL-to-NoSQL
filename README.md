@@ -1,8 +1,10 @@
 <h1 align="center">Migration-from-SQL-to-NoSQL</h1>
+<p>
+  <img src="https://img.shields.io/badge/Made%20with-MySQL-1f425f.svg"/> &nbsp; &nbsp;
+  <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"/> &nbsp; &nbsp;
+  <img src="https://img.shields.io/badge/Made%20with-MongoDB-1f425f.svg"/> &nbsp; &nbsp;
+</p>
 
-<img src="https://img.shields.io/badge/Made%20with-MySQL-1f425f.svg"/>    <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"/>    <img src="https://img.shields.io/badge/Made%20with-MongoDB-1f425f.svg"/> 
-
-</br>
 
 <h1>Project By</h1>
 
@@ -10,8 +12,6 @@
 | -------------------- | ---------------------- |
 | <h3>1911119 </h3>    | <h3>1911131</h3>       |
 | <h3>B4</h3>          | <h3>B4</h3>            |
-
-</br>
 
 <h1>Faculty</h1>
 
@@ -153,15 +153,16 @@
 -   MongoDB: MongoDB is a NoSQL document database with the scalability and flexibility that you want with the querying and indexing that you need.
 
 </br>
-</br>
-</br>
 
 ## Tools and Technologies used
 
 </br>
 
-
-<p><img height="50" src="Images\mysql-logo.svg"> &nbsp; &nbsp; <img height="50" src="Images\python-logo.png">  &nbsp; &nbsp; <img height="50" src="Images\mongodb-logo.svg"></p>
+<p>
+  <img height="50" src="Images\mysql-logo.svg"> &nbsp; &nbsp; 
+  <img height="50" src="Images\python-logo.png"> &nbsp; &nbsp; 
+  <img height="50" src="Images\mongodb-logo.svg">
+</p>
 
 
 
