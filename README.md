@@ -127,8 +127,6 @@
 
 ## Tools and Technologies used
 
-</br>
-
 <p>
   <img height="50" src="Images\mysql-logo.svg"> &nbsp; &nbsp; 
   <img height="50" src="Images\python-logo.png"> &nbsp; &nbsp; 
