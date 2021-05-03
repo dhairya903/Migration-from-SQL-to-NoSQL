@@ -136,11 +136,12 @@
 -   Now compare the time in milli-seconds in both the returned analytics.
 
     <img src="Images\mysql.PNG">
+    </br>
+    <div style="text-align:center"><img align src="Images\mongoDB.PNG"></div>
     
-    <img src="Images\mongoDB.PNG">
 
 </br>
-</br>
+
 
 ## Featured technologies:
 
