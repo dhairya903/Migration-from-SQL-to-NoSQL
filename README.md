@@ -103,47 +103,48 @@
 -   Open MongoDB Compass or terminal and create a new database
 -   Create a new collection inside the database.
 -   Now import the data.json file using MongoDB Compass or run the following command:
+
     ```cmd
     mongoimport --db ia2 --colection queryTable --file data.json --jsonArray
     ```
+    
 -   Now in the shell, type the following commands to check if the data is imported:
+
     ```cmd
     show dbs;
     use ia2;
     db.queryTable.find({});
     ```
+    
 </br>
 
 ### Step 4:
 -   Now to compare the query times between MongoDB and MySQL open 3 terminals (powershell/cmd)
 -   To run MongoDB we need to type `mongod` inside of the 1st terminal.
 -   In the second terminal run mysql and use the created database and run the following query:
+
     ```cmd
     EXPLAIN ANALYZE SELECT e.emp_no,d.dept_no,e.first_name FROM current_dept_emp AS d JOIN employees AS e ON e.emp_no=d.emp_no WHERE d.dept_no='d003';
     ```
--   
+    
+-   In the third terminal run mongo and use the created database and collection and type in the following query:
 
+    ```cmd
+    db.queryTable.find({"emp_no" : "d003"}).explain("executionStats");
+    ```
 
+-   Now compare the time in milli-seconds in both the returned analytics.
 
 </br>
 </br>
-
-## Included components:
-
--   Apache Spark: An open-source, fast and general-purpose cluster computing system.
-    </br>
-
--   Jupyter Notebooks: An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
-
-    </br>
-    </br>
 
 ## Featured technologies:
 
--   Data Science: Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
-    </br>
+-   MySQL: MySQL Database Service is a fully managed database service to deploy cloud-native applications
 
 -   Python: Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+
+-   MongoDB: MongoDB is a NoSQL document database with the scalability and flexibility that you want with the querying and indexing that you need.
 
 </br>
 </br>
