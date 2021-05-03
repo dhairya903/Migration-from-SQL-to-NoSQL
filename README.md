@@ -79,8 +79,29 @@
 -   Clone the repository.
     </br>
     -   `https://github.com/dhairya903/Migration-from-SQL-to-NoSQL`
--   Step 1
-    -    
+
+### Step 1:
+
+-   Clone https://github.com/datacharmer/test_db for the required data.
+-   Open command prompt and navigate to the cloned folder.
+-   Run `mysql -u root -p` and enter your password
+-   To load the database run `\. employees.sql`
+-   Run `show databases;` to check if the database is created.
+
+</br>
+
+### Step 2:
+-   Open and run `mainScript.py` using a code editor.
+-   You will get a data.json of the query which is inside the script.
+
+</br>
+
+### Step 3:
+-   Open MongoDB Compass or terminal and create a new database.
+-   Create a new collection inside the database.
+-   Now import the data.json file using MongoDB Compass or run the following script
+    -      
+
 
 </br>
 </br>
