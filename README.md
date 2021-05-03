@@ -91,16 +91,38 @@
 </br>
 
 ### Step 2:
+
 -   Open and run `mainScript.py` using a code editor.
 -   You will get a data.json of the query which is inside the script.
 
 </br>
 
 ### Step 3:
--   Open MongoDB Compass or terminal and create a new database.
+
+-   Open terminal and type `mongod` to run the mongo server
+-   Open MongoDB Compass or terminal and create a new database
 -   Create a new collection inside the database.
--   Now import the data.json file using MongoDB Compass or run the following script
-    -      
+-   Now import the data.json file using MongoDB Compass or run the following command:
+    ```cmd
+    mongoimport --db ia2 --colection queryTable --file data.json --jsonArray
+    ```
+-   Now in the shell, type the following commands to check if the data is imported:
+    ```cmd
+    show dbs;
+    use ia2;
+    db.queryTable.find({});
+    ```
+</br>
+
+### Step 4:
+-   Now to compare the query times between MongoDB and MySQL open 3 terminals (powershell/cmd)
+-   To run MongoDB we need to type `mongod` inside of the 1st terminal.
+-   In the second terminal run mysql and use the created database and run the following query:
+    ```cmd
+    EXPLAIN ANALYZE SELECT e.emp_no,d.dept_no,e.first_name FROM current_dept_emp AS d JOIN employees AS e ON e.emp_no=d.emp_no WHERE d.dept_no='d003';
+    ```
+-   
+
 
 
 </br>
