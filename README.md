@@ -161,7 +161,7 @@
 </br>
 
 <p>
-<img height="50" src="images\Apache_Spark_logo.svg.png">
+<img height="50" src="Images\mysql.svg">
 
 <img height="50" src="images\pyspark.png">
 
