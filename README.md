@@ -137,7 +137,7 @@
 
     <img src="Images\mysql.PNG">
     </br>
-    <div style="text-align:center"><img align src="Images\mongoDB.PNG"></div>
+    <img align = "center" src="Images\mongoDB.PNG">
     
 
 </br>
