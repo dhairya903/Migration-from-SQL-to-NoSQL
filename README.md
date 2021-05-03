@@ -19,25 +19,16 @@
 | ------------------------------- | ----------------------------- |
 
 
-</br>
-</br>
-
 ## Prerequisites
 
   -   A system running Windows 10
   -   A user account with administrator privileges (required to install software, modify file permissions, and modify system PATH)
   -   Command Prompt or Powershell
 
-</br>
-</br>
-
 ## Install MySQL Server, Python3 and MongoDB on Windows
 
 -   Installing MySQL on Windows 10 may seem complicated to novice users, but this simple tutorial will have you up and running.
 -   If you already have MySQL, Python 3 and MongoDB installed, you can skip the first two steps.
-
-</br>
-</br>
 
 ### Step 1: Install MySQL Server
 
@@ -45,29 +36,18 @@
 -   Download the latest stable version.
 -   Add it to the environment variable.
 
-</br>
-</br>
-
 ### Step 2: Install Python
 
 -   Open Browser and navigate to https://www.python.org/downloads/.
 -   Download the latest stable version.
 -   Add it to the environment variable.
 
-</br> 
-</br>
-
 ### Step 3: Install MongoDB
 
 -   Open a browser and navigate to https://www.mongodb.com/try/download/community.
 -   Select the current version and MSI package and click on download.
 
-</br>
-</br>
-
 ## Running the project
-
-</br>
 
 -   Make sure Java, Python and Spark are installed correctly by running the following command.
 
@@ -88,14 +68,10 @@
 -   To load the database run `\. employees.sql`
 -   Run `show databases;` to check if the database is created.
 
-</br>
-
 ### Step 2:
 
 -   Open and run `mainScript.py` using a code editor.
 -   You will get a data.json of the query which is inside the script.
-
-</br>
 
 ### Step 3:
 
@@ -115,8 +91,6 @@
     use ia2;
     db.queryTable.find({});
     ```
-    
-</br>
 
 ### Step 4:
 -   Now to compare the query times between MongoDB and MySQL open 3 terminals (powershell/cmd)
@@ -141,8 +115,6 @@
     <img src="Images\mongoDB.PNG">
     </p>
 
-</br>
-
 
 ## Featured technologies:
 
@@ -152,7 +124,6 @@
 
 -   MongoDB: MongoDB is a NoSQL document database with the scalability and flexibility that you want with the querying and indexing that you need.
 
-</br>
 
 ## Tools and Technologies used
 
