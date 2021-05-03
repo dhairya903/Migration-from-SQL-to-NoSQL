@@ -160,12 +160,8 @@
 
 </br>
 
-<p>
-<img height="50" src="Images\mysql-logo.svg">
 
-<img height="50" src="Images\python-logo.png">
-
-<img height="50" src="Images\mongodb-logo.svg">
+<img height="50" src="Images\mysql-logo.svg">   <img height="50" src="Images\python-logo.png">    <img height="50" src="Images\mongodb-logo.svg">
 
 
-</p>
+
