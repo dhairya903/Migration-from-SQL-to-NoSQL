@@ -1,9 +1,7 @@
 <h1 align="center">Migration-from-SQL-to-NoSQL</h1>
 
-<img src="https://img.shields.io/badge/Made%20with-MySQL-1f425f.svg"/>  <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"/>  <img src="https://img.shields.io/badge/Made%20with-MongoDB-1f425f.svg"/>
+<img src="https://img.shields.io/badge/Made%20with-MySQL-1f425f.svg"/>    <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"/>    <img src="https://img.shields.io/badge/Made%20with-MongoDB-1f425f.svg"/> 
 
-</br>
-</br>
 </br>
 
 <h1>Project By</h1>
@@ -20,41 +18,30 @@
 | <h3>Prof. Pradnya Bhangale</h3> | <h3>Prof. Vaibhav Vasani</h3> |
 | ------------------------------- | ----------------------------- |
 
-</br>
-</br>
-
-## What is spark?
-
--   Spark is a unified analytics engine for large-scale data processing.
--   It provides high-level APIs in Scala, Java, Python, and R, and an optimized engine that supports general computation graphs for data analysis.
--   It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, MLlib for machine learning, GraphX for graph processing, and Structured Streaming for stream processing.
 
 </br>
 </br>
 
-## How to install Apache Spark on Windows 10?
+## Prerequisites
 
--   ## Prerequisites
-
-    -   A system running Windows 10
-    -   A user account with administrator privileges (required to install software, modify file permissions, and modify system PATH)
-    -   Command Prompt or Powershell
-    -   A tool to extract .tar files, such as 7-Zip
+  -   A system running Windows 10
+  -   A user account with administrator privileges (required to install software, modify file permissions, and modify system PATH)
+  -   Command Prompt or Powershell
 
 </br>
 </br>
 
-## Install Apache Spark on Windows
+## Install MySQL Server, Python3 and MongoDB on Windows
 
--   Installing Apache Spark on Windows 10 may seem complicated to novice users, but this simple tutorial will have you up and running.
--   If you already have Java 8 and Python 3 installed, you can skip the first two steps.
+-   Installing MySQL on Windows 10 may seem complicated to novice users, but this simple tutorial will have you up and running.
+-   If you already have MySQL, Python 3 and MongoDB installed, you can skip the first two steps.
 
 </br>
 </br>
 
-### Step 1: Install Java 8
+### Step 1: Install MySQL Server
 
--   Open Browser and navigate to https://www.java.com/download/ie_manual.jsp.
+-   Open Browser and navigate to https://dev.mysql.com/downloads/installer/.
 -   Download the latest stable version.
 -   Add it to the environment variable.
 
@@ -70,10 +57,10 @@
 </br> 
 </br>
 
-### Step 3: Download Apache Spark
+### Step 3: Install MongoDB
 
--   Open a browser and navigate to https://spark.apache.org/downloads.html.
--   Under the Download Apache Spark heading, there are two drop-down menus. Use the current non-preview version.
+-   Open a browser and navigate to https://www.mongodb.com/try/download/community.
+-   Select the current version and MSI package and click on download.
 
 </br>
 </br>
@@ -84,15 +71,16 @@
 
 -   Make sure Java, Python and Spark are installed correctly by running the following command.
 
-    -   `python --version`
-    -   `java --version`
-    -   `pyspark --version`
+    -   `mysql --version`
+    -   `py --version`
+    -   `mongo --version`
 
 -   Open the terminal/command prompt.
 -   Clone the repository.
     </br>
-    -   `https://github.com/jainam2385/Big-Data-Analytics-Using-Spark`
--   Next open jupyter notebook and run each cell.
+    -   `https://github.com/dhairya903/Migration-from-SQL-to-NoSQL`
+-   Step 1
+    -    
 
 </br>
 </br>
